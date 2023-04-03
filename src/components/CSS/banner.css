@@ -1,0 +1,62 @@
+.container-fluid {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  /* Make the carousel images responsive */
+  .carousel-item img {
+    width: 100%;
+    height: auto;
+  }
+  
+  /* Adjust the size of the carousel caption text */
+  .carousel-caption {
+    max-width: 100%;
+    padding: 1 15px;
+    font-size: 22px;
+    
+    
+  }
+  .carousel-caption h5 p{
+    position:absolute;
+    font-size:34px;
+    
+    
+  }
+  .carousel-caption h5{
+    left: 20%;
+    color:aliceblue;
+  }
+  
+  /* Make the carousel indicators responsive */
+  .carousel-indicators {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .carousel-indicators button {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    margin: 0 10px;
+    
+  }
+  
+  /* Reduce the size of the previous and next buttons on small screens */
+  @media (max-width: 768px) {
+    .carousel-control-prev-icon,
+    .carousel-control-next-icon {
+      width: 20px;
+      height: 20px;
+    }
+  }
+  
+  /* Hide the previous and next buttons on extra-small screens */
+  @media (max-width: 576px) {
+    .carousel-control-prev,
+    .carousel-control-next {
+      display: none;
+    }
+  }
+  
